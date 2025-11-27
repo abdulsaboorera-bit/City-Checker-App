@@ -1,0 +1,79 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.card {
+  width: 320px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  #output {
+    padding: 50px !important;
+    font-size: 16px;
+  }
+}
+
+.city-button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #4C9AFF;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+  margin: 0;
+}
+
+button:hover {
+  background: #1a73e8;
+}
+
+#output {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 120px;
+  box-sizing: border-box;
+}
