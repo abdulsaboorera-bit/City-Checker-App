@@ -80,7 +80,7 @@ function printCity() {
 
 function checkcity() {
   const check = document.getElementById("userInput").value;
-
+ clearoutput();
   for (let i = 0; i < cities.length; i++) {
     if (check === cities[i]) {
       document.getElementById("output").innerHTML =
@@ -103,6 +103,7 @@ function clearall() {
 // let cnic = "35202-1234567-8";
 // let formattedcnic = cnic.replaceAll("-","");
 // console.log(formattedcnic);
+
 
 
 
