@@ -9,7 +9,7 @@ A simple HTML, CSS, and JavaScript project that:
 - Fully responsive UI
 
 ## Live Demo
-(Will add after GitHub Pages is enabled)
+https://abdulsaboorera-bit.github.io/City-Checker-App/
 
 ## Features
 ✔ No duplicate cities  
